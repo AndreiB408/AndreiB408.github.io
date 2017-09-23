@@ -1,0 +1,58 @@
+<style>
+.button {
+background-color: #4CAF50; /* green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color: #008CBA;} /* blue */
+.button3 {background-color: #f44336;} /* Red */  
+
+body {
+    background-color: lightgrey;
+}
+h1 {
+    color: maroon;
+    text-align: center;
+    letter-spacing: 12px;
+    text-shadow: 5px 2px indigo;
+    font-size: 45px;
+} 
+h2 {
+    color: maroon;
+    text-align: center;
+    font-size: 30px;
+}
+p.ex1 {
+    font-size: 20px;
+    
+}
+
+p.ex2 {
+    font-size: 30px;
+}
+
+P.ex3 {
+  font-size:20px;
+font-style: italic;
+  
+}
+
+P.ex4 {
+  font-size:20px;
+  background-color: yellow;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, td, th, th {
+    border: 1px solid black;
+}
+</style>
