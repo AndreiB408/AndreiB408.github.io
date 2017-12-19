@@ -26,6 +26,15 @@ a:hover, a:active {
 
 </table>
 
+<script>
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
 
 
   <center class="w3-wide"><font size="6">Origami</font></center>
