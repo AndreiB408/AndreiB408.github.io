@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<script>
+  (function(){
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
 <style>
 body  {background-image: url("166cd29e03ae34fad225aa1fe678cf56--origami-flowers-rose-origami.jpg");}
 a:link, a:visited {
@@ -26,15 +35,7 @@ a:hover, a:active {
 
 </table>
 
-<script>
-  (function(){
-    var redirect = sessionStorage.redirect;
-    delete sessionStorage.redirect;
-    if (redirect && redirect != location.href) {
-      history.replaceState(null, null, redirect);
-    }
-  })();
-</script>
+
 
 
   <center class="w3-wide"><font size="6">Origami</font></center>
